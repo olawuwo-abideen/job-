@@ -1,0 +1,77 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  body {
+    height: 80vh;
+    margin-top: 5rem;
+    background-color: #04AA6D;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+  }
+  
+  .form {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 15px 25px;
+    width: 80%;
+    margin: 0 auto;
+  align-items: center; 
+  }
+  
+  .checkbox {
+    width: 15px !important;
+  }
+  
+  .first-section input {
+    width: 85%;
+    height: 25px;
+    margin-left: 5px;
+  }
+  
+  .second-section input{
+    width: 85%;
+    height: 25px;
+    margin-left: 5px;
+  }
+  
+  .form h1, p {
+    text-align: center;
+  }
+  button {
+    border: none;
+    color: white;
+    background: #04AA6D;;
+    padding: 8px 25px;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto 10px auto;
+    width: 50%;
+    height: 50px;
+    cursor: pointer;
+  }
+  
+    /* button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: var(--color-green);
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+  } */
+  
+  .second-section {
+    margin-top: 15px;
+  }
+  
+
+  .terms {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  

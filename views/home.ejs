@@ -1,0 +1,127 @@
+<%- include('partials/header') %>
+
+    <div class="form">
+      <h1>Job Registration Form</h1>
+    
+    
+  <!-- Personal Data -->
+  <form action="/home" class="form" method="POST">
+      <fieldset class="first-section">
+        <legend>Personal Data</legend>
+        <label for="titles" > Title </label>  <br> <br>
+        <input list="titles"  placeholder="Title" name="title" id="title">
+        <datalist id="titles">
+          <option value="Miss">
+          <option value="Mr">
+          <option value="Dr.">
+            <option value="Professor">
+                <option value="Other">
+        </datalist><br><br>
+        
+        <label for="name">First Name</label> <br> <br>
+        <input autofocus type="text" id="fname" name="fname"  placeholder="First Name" autocomplete="on" required> <br><br>
+        <label for="name">Last Name</label> <br> <br>
+        <input autofocus type="text" id="lname" name="lname"  placeholder="Last Name" autocomplete="on" required> <br><br>
+        <label for="email">Email</label> <br> <br>
+        <input type="email" id="email" name="email" placeholder="Email"> <br><br>
+        <label for="tel">Phone Number</label> <br> <br>
+        <input type="tel" name="tel" id="tel" placeholder="Phone Number "> <br><br>
+        <label for="dob" name="dob"> Birth Date </label> <br> <br>
+        <input type="date" id="dob"> <br><br>
+
+         <label for="genders"> Gender </label> <br> <br>
+            <input list="genders" placeholder="Gender" name="gender">
+            <datalist id="genders">
+              <option value="Female">
+              <option value="Male">
+             </datalist> <br><br>
+         
+       <label for="marital status"> Marital Status </label>   <br> <br>
+        <input list="marital status" placeholder="Marital Status" name="marital" id="gender">
+        <datalist id="marital status">
+          <option value="Married">
+          <option value="Single">
+          <option value="Divorced">
+        </datalist><br><br>
+        <label for="address"> Address </label>   <br> <br>
+        <input autofocus type="text" id="address" name="address"  placeholder="Address" autocomplete="on" required> <br><br>
+        <label for="name">Languages</label>       <br> <br>
+        <input autofocus type="text" id="languages" name="languages"  placeholder="Languages" autocomplete="on" required> <br><br>
+        <label for="nationality"> Nationality </label>       <br> <br>
+        <input autofocus type="text" id="nationality" name="nationality"  placeholder="Nationality" autocomplete="on" required> <br><br>
+
+      </fieldset>
+      <br><br>
+
+
+      <fieldset class="second-section">
+        <legend> Institution Attended </legend>
+       <br>  
+        <label for="Institution">Qualification</label> <br> <br>
+        <input autofocus type="text" id="Institution" name="institution"  placeholder="Name Of Institution" autocomplete="on" required> <br><br>
+
+     
+        <label for="year">Year</label>   <br> <br>
+        <input  type="month" id="year" name="year"  placeholder="Year" autocomplete="on" required> <br><br>
+        
+        <label for="course">Course</label>    <br> <br>
+        <input autofocus type="text" id="course" name="course"  placeholder="Course" autocomplete="on" required> <br><br>
+        
+        <label for="award"> Award</label>    <br> <br>
+        <input autofocus type="text" id="name" name="award"  placeholder="Award" autocomplete="on" required> <br><br>
+
+
+    </fieldset>
+
+      
+      <!-- Nex Of Kin-->
+      <fieldset class="second-section">
+        <legend> Next Of Kin </legend>  <br>
+
+        <label for="kname"> Name </label>          <br> <br>
+        <input autofocus type="text" id="kname" name="kname"  placeholder="Name" autocomplete="on" required> <br><br>
+
+        <label for="relationship"> Relationship </label>   <br> <br>
+        <input list="relationship" placeholder="Relationship" name="relationship">
+        <datalist id="relationship">
+          <option value="Father">
+          <option value="Mother">
+            <option value="Brother">
+                <option value="Sister">
+                    <option value="Other">
+         </datalist> <br><br>
+
+         <label for="phone"> Phone Number</label>    <br> <br>
+        <input type="phone" name="kphone" id="tel" placeholder="Phone Number "> <br><br>
+
+        
+        <label for="kaddress"> Address </label>   <br> <br>
+        <input autofocus type="text" id="kaddress" name="kaddress"  placeholder="Address" autocomplete="on" required> <br><br>
+
+        
+        </fieldset>
+      
+       <!-- Preferred Language -->
+     
+      <button type="submit" >Submit</button>
+    </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%- include('partials/footer') %>
